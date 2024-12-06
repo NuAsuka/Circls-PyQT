@@ -1,1 +1,1 @@
-print('mu first repo')
+print('My first git-repo')
