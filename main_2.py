@@ -18,7 +18,7 @@ class MainWindow(QWidget):
 
     def random_color_hsv(self):
         h = random.randint(0, 360)
-        s = random.randint(0, 255)
+        s = random.randint(0, 255) #
         v = random.randint(128, 255)
         return QColor.fromHsv(h, s, v)
 
