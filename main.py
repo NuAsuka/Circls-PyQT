@@ -35,7 +35,7 @@ class MainWindow(QWidget):
         y = random.randint(0, height - diameter)
         color = self.random_color_hsv()
         self.circles.append((x, y, diameter, color))
-        self.update()
+        self.update() #update
 
 
 if __name__ == "__main__":
